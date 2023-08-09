@@ -1,0 +1,34 @@
+.main {
+  width: 100%;
+  min-height: calc(100vh - 210px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+
+  & h2 {
+    margin-top: 2rem;
+    background-color: var(--bg-footer);
+    font-family: var(--titulo-font);
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--textColorWhite);
+    padding: 5px 10px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px #cfcfcf,
+      -2px -2px 5px #d4f951;
+    ;
+  }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

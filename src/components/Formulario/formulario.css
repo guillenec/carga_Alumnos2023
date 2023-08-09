@@ -1,0 +1,105 @@
+.formAlumno {
+  background-color: var(--bg-button);
+  width: 95%;
+  border-radius: 4px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 3rem;
+  box-shadow: 8px 8px 6px #cfcfcf,
+    -5px -5px 6px #baf9ff;
+
+  & .sectionCampo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 1rem;
+    color: var(--textColorBlack);
+    font-family: var(--parrafo-font);
+    font-weight: 500;
+
+    & label {
+      width: 100%;
+      text-align: left;
+      font-family: var(--titulo-font);
+      font-weight: 400;
+      font-size: 1rem;
+    }
+
+    & input {
+      width: 100%;
+      outline: none;
+      font-size: 1rem;
+      font-family: var(--parrafo-font);
+      font-weight: 400;
+      background: var(--bg-main);
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid var(--bg-button);
+      outline: none;
+      color: var(--textColorBlack);
+      box-shadow: 5px 5px 6px #7ea9ba,
+        -5px -5px 6px #baf9ff;
+    }
+  }
+
+  & .sectionCampoButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+
+    & .submitButton {
+      background-color: var(--bg-header);
+      width: 90px;
+      height: 40px;
+      font-size: .9rem;
+      font-family: var(--titulo-font);
+      font-weight: 500;
+      border: solid 1px var(--textColorWhite);
+      color: var(--textColorWhite);
+      outline: none;
+      border-radius: 20px;
+      transition: all ease-in .4s;
+      box-shadow: 5px 5px 6px #7ea9ba,
+        -5px -5px 6px #baf9ff;
+
+      &:hover {
+        background-color: var(--textColorWhite);
+        color: var(--bg-header);
+        border: solid 1px var(--bg-header);
+        box-shadow: 5px 5px 6px #7ea9ba,
+          -3px -3px 5px #ffb350;
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .formAlumno {
+    width: 400px;
+    padding: 3.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .formAlumno {
+    width: 500px;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
